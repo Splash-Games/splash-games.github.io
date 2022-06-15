@@ -12,20 +12,16 @@ const pageLinks = [
 	['index.html', 'CONTACT']
 ];
 
-function setAnchors(elementId, indexPage = false) {
-	let source = ["../", ""];
-	if (indexPage) source = ["", "html/"];
+function setAnchors(elementId) {
 	let ph = document.getElementById(elementId);
 	let anchor = (link, text) => {
-		let indexed = Number(link === "index.html");
-		let pageLink = source[indexed] + link;
-		return `<a href="${pageLink}" class="anchor-redirect">${text}</a>`
+		return `<a href="${link}" class="anchor-redirect">${text}</a>`
 	}
 	pageLinks.forEach(el => {
 		ph.innerHTML += anchor(el[0], el[1]) + "\n|\n";
 	});
-	ph.innerHTML += "<links end>"
-	ph.innerHTML = ph.innerHTML.replace("\n|\n<links end>", "");
+	ph.innerHTML += "<links.end>"
+	ph.innerHTML = ph.innerHTML.replace("\n|\n<links.end>", "");
 }
 
 function setup(anchors) {
