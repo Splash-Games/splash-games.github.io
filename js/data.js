@@ -1,4 +1,5 @@
 const imgPath = "../res/img/";
+const pagePath = "html/"
 
 const logo = {
 	"default": "logo.svg",
@@ -13,12 +14,12 @@ const pageLinks = [
 ];
 
 function setAnchors(elementId, indexPage = false) {
-	let source = ["../", ""];
-	if (indexPage) source = ["", "html/"];
+	//let source = ["../", ""];
+	//if (indexPage) source = ["", pagePath];
 	let ph = document.getElementById(elementId);
 	let anchor = (link, text) => {
-		let indexed = Number(link === "index.html");
-		let pageLink = source[indexed] + link;
+		//let indexed = Number(link === "index.html");
+		let pageLink = /*source[indexed]*/ "../" + link;
 		return `<a href="${pageLink}" class="anchor-redirect">${text}</a>`
 	}
 	pageLinks.forEach(el => {
