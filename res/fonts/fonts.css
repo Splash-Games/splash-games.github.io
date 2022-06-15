@@ -1,0 +1,69 @@
+@font-face {
+	font-family: lotuscoder;
+	src: url("lotuscoder-font/Lotuscoder-0WWrG.ttf");
+}
+
+@font-face {
+	font-family: jetbrains-mono;
+	src: url("jetbrains-mono-font/JetbrainsMonoMedium-nRvBM.ttf");
+}
+
+@font-face {
+	font-family: mechanical-font;
+	src: url("mechanical-font/Mechanical-g5Y5.otf");
+}
+
+@font-face {
+	font-family: courier-prime;
+	src: url("courier-prime-font/Courierprime-1OVL.ttf");
+}
+
+@font-face {
+	font-family: pasti-font;
+	src: url("pasti-font/PastiRegular-mLXnm.otf");
+}
+
+@font-face {
+	font-family: excluded-font;
+	src: url("excluded-font/Excluded-z8XrX.ttf");
+}
+
+@font-face {
+	font-family: gecade;
+	src: url("gecade-font/Gecade-RpXnE.ttf");
+}
+
+@font-face {
+	font-family: quinque-five;
+	src: url("quinque-five-font/Quinquefive-0Wonv.ttf");
+}
+
+@font-face {
+	font-family: rogueland-slab;
+	src: url("rogueland-slab-font/RoguelandSlabBold-1GZyj.ttf");
+}
+
+@font-face {
+	font-family: apple-tea;
+	src: url("a-apple-tea-font/AppleTea-z8R1a.ttf");
+}
+
+@font-face {
+	font-family: edition-font;
+	src: url("edition-font/Edition-BxnV.ttf");
+}
+
+@font-face {
+	font-family: eat-my-shorts;
+	src: url("eat-my-shorts-font/EatMyShorts-0WLa4.ttf");
+}
+
+@font-face {
+	font-family: random-x;
+	src: url("random-x-font/RandomXBold-ZVEdB.otf");
+}
+
+@font-face {
+	font-family: round-pop;
+	src: url("round-pop-font/RoundPop-owwjd.ttf");
+}
