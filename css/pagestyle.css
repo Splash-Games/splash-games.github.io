@@ -53,7 +53,7 @@ body {
 
 	.page {
 		width: 450px;
-		scale: var(--content-scale);
+		/*scale: var(--content-scale);*/
 	}
 }
 
