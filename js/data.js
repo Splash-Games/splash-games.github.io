@@ -29,12 +29,12 @@ function setup(anchors) {
 	let type = "default";
 	type = date.getMonth() === 5 ? "pride" : type;
 	try {
-		let pl = document.getElementById("page-logo");
+		let pl = document.getElementById("site-logo");
 		pl.setAttribute("href", pageLinks[0][0])
 		pl.innerHTML = (`<img src="${imgPath + logo[type]}" alt="Splash Games" class="logo-icon-big">`);
 	} catch (error) {}
 	try {
-		let pf = document.getElementById("page-favicon");
+		let pf = document.getElementById("site-favicon");
 		pf.setAttribute("href", imgPath + logo[type]);
 	} catch (error) {}
 	if (anchors[0]) anchors.forEach(el => setAnchors(el));

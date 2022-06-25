@@ -12,6 +12,7 @@
 	--min-icon-scale: 100px;
 	--content-width: 75%;
 	--content-bg-color: #004;
+	--content-padding: 15px;
 	--min-content-width: 400px;
 	--font-scale: 20px;
 	/*--title-font: apple-tea;*/
@@ -28,8 +29,6 @@
 }
 
 body {
-    display: flexbox;
-    justify-content: center;
 	background-color:black;
 	font-family: var(--page-font);
 	font-weight:var(--page-font-weight);
@@ -42,7 +41,9 @@ body {
 
 .page {
 	width: 100%;
-	justify-content: left;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
@@ -85,10 +86,24 @@ body {
 	letter-spacing: calc(2 * var(--page-letter-spacing));
 }
 
-.page-content {
-	width: 90%;
-	min-width: var(--min-content-width);
-	background-color: white;
+.page-content, .page-content-title {
+	max-width: 95%;
+	width: calc(95% - 2 * var(--content-padding));
+	margin-left: 2.5%;
+	min-width: calc(var(--min-content-width) - 10%);
+	background-color: #002;
+	padding: var(--content-padding);
+	border-radius: 10px;
+	margin-top: -5px;
+	justify-self: center;
+}
+
+.page-content-title {
+	padding-top: calc(2 * var(--content-padding));
+	padding-bottom: calc(2 * var(--content-padding));
+	justify-content: center;
+	margin-bottom: -2px;
+	text-align: center;
 }
 
 .page-links {
