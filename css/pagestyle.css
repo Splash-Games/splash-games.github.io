@@ -29,7 +29,7 @@
 }
 
 body {
-    display: flexbox;
+    display: flex;
     justify-content: center;
 	background-color:black;
 	font-family: var(--page-font);
@@ -47,12 +47,10 @@ body {
 		--content-scale: 2;
 	}
 
-	.page {
-		scale: 2;
-	}
-
 	body {
 		font-size: calc(1.5 * var(--font-scale));
+		width: 450px;
+		scale: 2;
 	}
 }
 
