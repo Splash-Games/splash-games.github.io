@@ -55,8 +55,9 @@ body {
 	}
 
 	.page {
+		margin-top: 10%;
 		width: 500px;
-		scale: 1.5;
+		scale: 1.75;
 	}
 }
 
