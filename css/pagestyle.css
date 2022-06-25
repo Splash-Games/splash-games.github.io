@@ -163,7 +163,7 @@ body {
 
 	.site-subtitle {
 		margin-left: 8%;
-		font-size: 70px;
+		font-size: 60px;
 	}
 
 	.page-header {
@@ -178,6 +178,12 @@ body {
 
 	.logo-icon-big {
 		margin-left: 36%;
+	}
+
+	@supports -moz-any() {
+		body {
+			box-shadow: none;
+		}
 	}
 }
 
