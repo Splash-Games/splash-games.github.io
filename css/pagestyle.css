@@ -49,10 +49,10 @@ body {
 
 	body {
 		font-size: calc(1.5 * var(--font-scale));
-		width: 450px;
 	}
 
 	.page {
+		width: 450px;
 		scale: var(--content-scale);
 	}
 }
