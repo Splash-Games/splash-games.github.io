@@ -10,7 +10,7 @@
 :root {
 	--icon-scale: 10%;
 	--min-icon-scale: 100px;
-	--content-width: 80%;
+	--content-width: 75%;
 	--content-bg-color: #004;
 	--min-content-width: 400px;
 	--font-scale: 20px;
@@ -113,7 +113,7 @@ body {
 	--is-scale: max(var(--icon-scale), var(--min-icon-scale));
 	--flipw: calc(100% - var(--content-width));
 	margin: 1%;
-	margin-left: calc(0.7 * var(--flipw));
+	margin-left: calc(0.5 * var(--flipw));
 	min-width: var(--min-icon-scale);
 	min-height: var(--min-icon-scale);
 	width: var(--icon-scale);
