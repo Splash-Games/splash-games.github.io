@@ -116,6 +116,10 @@ body {
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
+	body {
+		width: 450;
+	}
+	
 	.page-header, .page-body {
 		border-radius: 0px;
 	}

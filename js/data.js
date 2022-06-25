@@ -1,4 +1,4 @@
-const imgPath = "../res/img/";
+const imgPath = "res/img/";
 
 const logo = {
 	"default": "logo.svg",
@@ -6,10 +6,10 @@ const logo = {
 };
 
 const pageLinks = [
-	['../index.html', 'HOME'],
-	['../index.html', 'WORKS'],
-	['../index.html', 'MEMBERS'],
-	['../index.html', 'CONTACT']
+	['index.html', 'HOME'],
+	['works.html', 'WORKS'],
+	['about.html', 'ABOUT'],
+	['contact.html', 'CONTACT']
 ];
 
 function setAnchors(elementId, indexPage = false) {
