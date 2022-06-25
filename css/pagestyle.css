@@ -10,7 +10,7 @@
 :root {
 	--icon-scale: 10%;
 	--min-icon-scale: 100px;
-	--content-width: 75%;
+	--content-width: 80%;
 	--content-bg-color: #004;
 	--min-content-width: 400px;
 	--font-scale: 20px;
@@ -55,7 +55,7 @@ body {
 	}
 
 	.page {
-		margin-top: 10%;
+		margin-top: 25%;
 		width: 500px;
 		scale: 1.75;
 	}
