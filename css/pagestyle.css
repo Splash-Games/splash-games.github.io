@@ -8,7 +8,7 @@
 @import url("../res/fonts/fonts.css");
 
 :root {
-	--icon-scale: 10%;
+	--icon-scale: 15%;
 	--min-icon-scale: 100px;
 	--content-width: 80%;
 	--content-bg-color: #004;
@@ -48,7 +48,7 @@ body {
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
 	:root {
 		--content-width: 100%;
-		--icon-scale: 20%;
+		--icon-scale: 30%;
 		--min-content-width: 400px;
 		--font-scale: 40px;
 		/*--title-font: apple-tea;*/
@@ -61,7 +61,7 @@ body {
 	}
 
 	.page {
-		margin-top: 25%;
+		margin-top: 5%;
 	}
 }
 
