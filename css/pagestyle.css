@@ -50,7 +50,7 @@ body {
 		--content-width: 100%;
 		--icon-scale: 30%;
 		--min-content-width: 400px;
-		--font-scale: 35px;
+		--font-scale: 30px;
 		/*--title-font: apple-tea;*/
 		--page-letter-spacing: 1.5px;
 		--page-spacing: 20px;
@@ -147,7 +147,7 @@ body {
 
 	.site-title {
 		margin-left: 18%;
-		font-size: calc(1.5 * var(--font-scale));
+		font-size: calc(2 * var(--font-scale));
 	}
 
 	.site-subtitle {
