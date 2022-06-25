@@ -155,6 +155,11 @@ body {
 		margin-left: 8%;
 		font-size: var(--font-scale);
 	}
+
+	.page-header, .page-body {
+		font-size: var(--font-scale);
+	}
+
 	.logo-icon-big {
 		margin: 2%;
 		margin-left: 36%;
