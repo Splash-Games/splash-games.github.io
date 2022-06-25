@@ -127,7 +127,7 @@ body {
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
-	.page, .page-body, .page-header, .site-subtitle, .site-title {
+	.page, .page-body, .page-header, .site-subtitle, .site-title, .logo-icon-big {
 		text-shadow: none;
 		box-shadow: none;
 	}
