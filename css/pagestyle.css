@@ -47,7 +47,7 @@ body {
 
 	body {
 		font-size: calc(1.5 * var(--font-scale));
-		scale: 200%;
+		scale: 4;
 	}
 }
 
