@@ -157,7 +157,7 @@ body {
 	}
 
 	.page-header, .page-body {
-		font-size: var(--font-scale);
+		font-size: calc(1.5 * var(--font-scale));
 	}
 
 	.logo-icon-big {
