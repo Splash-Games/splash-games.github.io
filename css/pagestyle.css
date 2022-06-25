@@ -40,7 +40,7 @@ body {
 	text-shadow: var(--page-bold-shadow);
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
 	:root {
 		--content-width: 100%;
 	}
@@ -115,9 +115,9 @@ body {
 	min-height: 200px;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
-	body {
-		width: 450;
+@media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
+	.page {
+		width: 450px;
 	}
 	
 	.page-header, .page-body {
