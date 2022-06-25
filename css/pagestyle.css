@@ -137,12 +137,10 @@ body {
 		border-radius: 0px;
 	}
 	*/
-	body {
-		padding: 1%;
-	}
 
 	.page-header {
 		margin-bottom: 5px;
+		padding-bottom: 1%;
 	}
 
 	.site-title {
