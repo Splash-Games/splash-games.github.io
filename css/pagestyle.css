@@ -8,7 +8,7 @@
 @import url("../res/fonts/fonts.css");
 
 :root {
-	--icon-scale: 15%;
+	--icon-scale: 10%;
 	--min-icon-scale: 100px;
 	--content-width: 80%;
 	--content-bg-color: #004;
@@ -41,7 +41,7 @@ body {
 }
 
 .page {
-	width: var(--content-width);
+	width: 100%;
 	justify-content: left;
 }
 
