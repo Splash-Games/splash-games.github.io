@@ -154,11 +154,11 @@ body {
 	.page-header {
 		margin-bottom: 5px;
 		padding-bottom: 2%;
-		font-size: calc(1 * var(--font-scale));
+		font-size: calc(1.1 * var(--font-scale));
 	}
 
 	.page-body {
-		font-size: calc(1 * var(--font-scale));
+		font-size: calc(1.05 * var(--font-scale));
 	}
 
 	.logo-icon-big {
