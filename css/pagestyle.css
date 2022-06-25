@@ -48,6 +48,12 @@ body {
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
 	:root {
 		--content-width: 100%;
+		--icon-scale: 20%;
+		--min-content-width: 400px;
+		--font-scale: 50px;
+		/*--title-font: apple-tea;*/
+		--page-letter-spacing: 1.5px;
+		--page-spacing: 20px;
 	}
 
 	body {
@@ -56,8 +62,6 @@ body {
 
 	.page {
 		margin-top: 25%;
-		width: 500px;
-		scale: 1.75;
 	}
 }
 
@@ -101,6 +105,7 @@ body {
 	border-radius: 10px;
 	text-shadow: none;
 	margin-bottom: var(--page-spacing);
+	margin-top: var(--page-spacing);
 	box-shadow: var(--page-shadow-size) var(--content-bg-color);
 }
 
@@ -127,10 +132,6 @@ body {
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
-	.page, .page-body, .page-header, .site-subtitle, .site-title, .logo-icon-big {
-		text-shadow: none;
-		box-shadow: none;
-	}
 	/*
 	.page-header, .page-body {
 		border-radius: 0px;
