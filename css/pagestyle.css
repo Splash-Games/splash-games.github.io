@@ -50,7 +50,7 @@ body {
 		--content-width: 100%;
 		--icon-scale: 30%;
 		--min-content-width: 400px;
-		--font-scale: 40px;
+		--font-scale: 35px;
 		/*--title-font: apple-tea;*/
 		--page-letter-spacing: 1.5px;
 		--page-spacing: 20px;
@@ -72,12 +72,12 @@ body {
 	margin-bottom: .5%;
 	font-weight: var(--title-font-weight);
 	font-family: var(--title-font);
-	font-size: calc(2 * var(--font-scale));
+	font-size: calc(2.5 * var(--font-scale));
 	letter-spacing: calc(2 * var(--page-letter-spacing));
 }
 
 .site-subtitle {
-	font-size: calc(0.75 * var(--font-scale));
+	font-size: calc(0.9 * var(--font-scale));
 	margin-left: 15%;
 	font-weight: normal;
 	font-family: var(--title-font);
@@ -112,8 +112,8 @@ body {
 .logo-icon-big {
 	--is-scale: max(var(--icon-scale), var(--min-icon-scale));
 	--flipw: calc(100% - var(--content-width));
-	margin: 2%;
-	margin-left: calc(0.45 * var(--flipw));
+	margin: 1%;
+	margin-left: calc(0.7 * var(--flipw));
 	min-width: var(--min-icon-scale);
 	min-height: var(--min-icon-scale);
 	width: var(--icon-scale);
@@ -150,6 +150,7 @@ body {
 		font-size: var(--font-scale);
 	}
 	.logo-icon-big {
+		margin: 2%;
 		margin-left: 36%;
 	}
 }
