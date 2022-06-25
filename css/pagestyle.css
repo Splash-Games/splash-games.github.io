@@ -148,21 +148,20 @@ body {
 
 	.site-subtitle {
 		margin-left: 8%;
-		font-size: 40px;
+		font-size: 60px;
 	}
 
 	.page-header {
 		margin-bottom: 5px;
 		padding-bottom: 2%;
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	.page-body {
-		font-size: 25px;
+		font-size: 30px;
 	}
 
 	.logo-icon-big {
-		margin: 2%;
 		margin-left: 36%;
 	}
 }
