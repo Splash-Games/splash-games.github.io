@@ -145,7 +145,7 @@ body {
 
 	.site-title {
 		margin-left: 18%;
-		font-size: calc(2 * var(--font-scale));
+		font-size: calc(4 * var(--font-scale));
 	}
 
 	.site-subtitle {
