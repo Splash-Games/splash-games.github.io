@@ -20,7 +20,7 @@ function setAnchors(elementId, indexPage = false) {
 	pageLinks.forEach(el => {
 		ph.innerHTML += anchor(el[0], el[1]) + "\n|\n";
 	});
-	ph.innerHTML += "<links.end>"
+	ph.innerHTML += "<links.end><br>"
 	ph.innerHTML = ph.innerHTML.replace("\n|\n<links.end>", "");
 }
 
