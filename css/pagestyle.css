@@ -47,6 +47,7 @@ body {
 
 	body {
 		font-size: calc(1.5 * var(--font-scale));
+		scale: 200%;
 	}
 }
 
@@ -116,10 +117,6 @@ body {
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
-	.page {
-		width: 450px;
-	}
-	
 	.page-header, .page-body {
 		border-radius: 0px;
 	}
