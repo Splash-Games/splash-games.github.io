@@ -137,6 +137,9 @@ body {
 		border-radius: 0px;
 	}
 	*/
+	body {
+		font-size: var(--font-scale);
+	}
 
 	.page-header {
 		margin-bottom: 5px;
