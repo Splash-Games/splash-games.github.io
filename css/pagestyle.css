@@ -28,7 +28,7 @@
 }
 
 body {
-    display: flex;
+    display: flexbox;
     justify-content: center;
 	background-color:black;
 	font-family: var(--page-font);
@@ -112,7 +112,7 @@ body {
 .logo-icon-big {
 	--is-scale: max(var(--icon-scale), var(--min-icon-scale));
 	--flipw: calc(100% - var(--content-width));
-	margin: 1%;
+	margin: 2%;
 	margin-left: calc(0.45 * var(--flipw));
 	min-width: var(--min-icon-scale);
 	min-height: var(--min-icon-scale);
