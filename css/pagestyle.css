@@ -50,7 +50,7 @@ body {
 		--content-width: 100%;
 		--icon-scale: 30%;
 		--min-content-width: 400px;
-		--font-scale: 30px;
+		--font-scale: 25px;
 		/*--title-font: apple-tea;*/
 		--page-letter-spacing: 1.5px;
 		--page-spacing: 20px;
@@ -154,7 +154,7 @@ body {
 	.page-header {
 		margin-bottom: 5px;
 		padding-bottom: 2%;
-		font-size: 29px;
+		font-size: 30px;
 	}
 
 	.page-body {
