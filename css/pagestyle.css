@@ -11,7 +11,6 @@
 	--icon-scale: 10%;
 	--min-icon-scale: 100px;
 	--content-width: 75%;
-	--content-scale: 1;
 	--content-bg-color: #004;
 	--min-content-width: 400px;
 	--font-scale: 20px;
@@ -49,7 +48,6 @@ body {
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
 	:root {
 		--content-width: 100%;
-		--content-scale: 1.5;
 	}
 
 	body {
@@ -58,7 +56,7 @@ body {
 
 	.page {
 		width: 500px;
-		scale: var(--content-scale);
+		scale: 1.5;
 	}
 }
 
