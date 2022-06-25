@@ -50,8 +50,15 @@ body {
 	body {
 		font-size: calc(1.5 * var(--font-scale));
 		width: 450px;
-		scale: 2;
 	}
+
+	.page {
+		scale: var(--content-scale);
+	}
+}
+
+.page {
+	justify-content: left;
 }
 
 .site-title {
