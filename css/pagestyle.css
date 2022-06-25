@@ -41,10 +41,15 @@ body {
 	text-shadow: var(--page-bold-shadow);
 }
 
+.page {
+	width: var(--content-width);
+	justify-content: left;
+}
+
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
 	:root {
 		--content-width: 100%;
-		--content-scale: 2;
+		--content-scale: 1.1;
 	}
 
 	body {
@@ -53,12 +58,8 @@ body {
 
 	.page {
 		width: 450px;
-		/*scale: var(--content-scale);*/
+		scale: var(--content-scale);
 	}
-}
-
-.page {
-	justify-content: left;
 }
 
 .site-title {
