@@ -1,5 +1,5 @@
 /*
-	TODO: Test on mobile
+	BUG: Shadows don't work in mobile firefox
 
 	NOTE: When changing default content width, change:
 	>	title & subtitle padding
@@ -89,6 +89,7 @@ body {
 .page-content, .page-content-title {
 	max-width: 95%;
 	width: calc(95% - 2 * var(--content-padding));
+	/*HACK: div won't center, so this will have to do*/
 	margin-left: 2.5%;
 	min-width: calc(var(--min-content-width) - 10%);
 	background-color: #002;
