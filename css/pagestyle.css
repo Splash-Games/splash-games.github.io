@@ -39,6 +39,7 @@ body {
 	text-shadow: var(--page-bold-shadow);
 }
 
+/*No longer used, but kept for record*/
 .page {
 	width: 100%;
 	display: flex;
