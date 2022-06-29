@@ -180,18 +180,13 @@ body {
 	.logo-icon-big {
 		margin-left: 36%;
 	}
-
+	/*
 	@supports (scale) {
 		.page-header, .page-body, .site-title, .site-subtitle {
 			box-shadow: none;
 		}
 	}
-}
-
-@supports (scale) and (hover: none) and (pointer: coarse) {
-	.page-header, .page-body, .site-title, .site-subtitle {
-		box-shadow: none;
-	}
+	*/
 }
 
 .anchor-redirect {
