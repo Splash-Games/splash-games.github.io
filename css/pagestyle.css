@@ -163,10 +163,8 @@ body {
 }
 
 .member-mark {
-	width: 25%;
-	height: 25%;
-	min-width: 255px;
-	min-height: 255px;
+	width: 15vw;
+	aspect-ratio: 1;
 }
 
 .rainbow {
@@ -219,8 +217,9 @@ body {
 		margin-left: 36%;
 	}
 
-	.accent {
-		width: 30%;
+	.member-mark {
+		width: 20vw;
+		aspect-ratio: 1;
 	}
 	/*
 	@supports (scale) {
