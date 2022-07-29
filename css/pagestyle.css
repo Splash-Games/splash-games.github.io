@@ -177,7 +177,7 @@ body {
 	/*
 	FIXME: Gradient mask works correctly, but an actual image doesn't.
 	*/
-	/*mask-image: url("../res/img/mask/vortex.png");/**/
+	mask-image: url("../res/img/mask/vortex.png");/**/
 	/*mask-image: radial-gradient(black, black, transparent, transparent);/**/
 	mask-repeat: no-repeat;
 	mask-position: center;
