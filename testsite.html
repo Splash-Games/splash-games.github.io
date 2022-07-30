@@ -3,17 +3,19 @@
 </head>
 <style>
 	.member-mark {
-		width: 25%;
-		height: 25%;
-		min-width: 255px;
-		min-height: 255px;
+		width: 15vw;
+		min-width: 128px;
+		aspect-ratio: 1;
 	}
 
 	.rainbow {
-		background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple);
+		background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, magenta);
 	}
 
 	.scratch {
+		/*
+		FIXME: Gradient mask works correctly, but an actual image doesn't.
+		*/
 		/*mask-image: url("../res/img/mask/vortex.png");/**/
 		/*mask-image: radial-gradient(black, black, transparent, transparent);/**/
 		mask-repeat: no-repeat;

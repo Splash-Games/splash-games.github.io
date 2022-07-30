@@ -8,7 +8,7 @@
 @import url("../res/fonts/fonts.css");
 
 :root {
-	--rainbow: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple);
+	--rainbow: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, magenta);
 	--icon-scale: 10%;
 	--min-icon-scale: 100px;
 	--content-width: 75%;
@@ -164,6 +164,7 @@ body {
 
 .member-mark {
 	width: 15vw;
+	min-width: 128px;
 	aspect-ratio: 1;
 }
 
