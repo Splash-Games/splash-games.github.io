@@ -163,25 +163,82 @@ body {
 }
 
 .member-mark {
-	width: 15vw;
-	min-width: 128px;
-	aspect-ratio: 1;
+	width: 20vw;
+	min-width: 255px;
+	margin-left: -5vw;
+	margin-bottom: -40%;
+	aspect-ratio: 1 / 1;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	mask-position: center;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	-webkit-mask-type: alpha;
+	mask-type: alpha;
 }
 
+.member-info {
+	--mits: 0px 0px 3.5px black;
+	--mits5: var(--mits),var(--mits),var(--mits),var(--mits),var(--mits);
+	--mits10: var(--mits5), var(--mits5);
+	--mits15: var(--mits5), var(--mits10);
+	--mits20: var(--mits10), var(--mits10);
+	margin-left: 20vw;
+	text-shadow: var(--mits15);
+}
+
+.member-image {
+	width: 20vw;
+	min-width: 192px;
+	margin-bottom: -30%;
+	aspect-ratio: 1 / 1;
+	background-color: black;
+	border-radius: 10vw;
+	border-color: blue;
+	border-width: 5px;
+	border-style: solid;
+}
+
+@media screen and (max-width: 900px) {
+	.member-image {
+		margin-bottom: -40%;
+		margin-left: 60%;
+	}
+	.member-mark {
+		margin-bottom: -50%;
+	}
+	.member-info {
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.member-image {
+		margin-bottom: -50%;
+		margin-left: 40%;
+	}
+	.member-mark {
+		margin-bottom: -60%;
+		margin-left: 0vw;
+	}
+	.member-info {
+		margin-left: 0vw;
+	}
+}
+
+.member-title {
+	font-size: calc(3 * var(--font-scale));
+	margin-bottom: -5px;
+	margin-top: -5px;
+}
 .rainbow {
 	background-image: var(--rainbow);
 }
 
 .scratch {
-	/*
-	FIXME: Gradient mask works correctly, but an actual image doesn't.
-	*/
-	mask-image: url("../res/img/mask/scratch.png");/**/
-	/*mask-image: radial-gradient(black, black, transparent, transparent);/**/
-	mask-repeat: no-repeat;
-	mask-position: center;
-	mask-size: cover;
-	mask-type: alpha;
+	/*-webkit-mask-image: url("../res/img/mask/spiral.png");
+	mask-image: url("../res/img/mask/spiral.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
@@ -216,11 +273,6 @@ body {
 
 	.logo-icon-big {
 		margin-left: 36%;
-	}
-
-	.member-mark {
-		width: 20vw;
-		aspect-ratio: 1;
 	}
 	/*
 	@supports (scale) {
