@@ -100,6 +100,10 @@ body {
 	justify-self: center;
 }
 
+.page-content {
+	position: relative;
+}
+
 .page-content-title {
 	padding-top: calc(2 * var(--content-padding));
 	padding-bottom: calc(2 * var(--content-padding));
@@ -176,7 +180,7 @@ body {
 	mask-size: cover;
 	-webkit-mask-type: alpha;
 	mask-type: alpha;
-	z-index: 0;
+	z-index: -1;
 }
 
 .member-info {
