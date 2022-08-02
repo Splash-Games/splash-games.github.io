@@ -286,10 +286,6 @@ body {
 		margin-left: 36%;
 	}
 	
-	body {
-		width: 400px;
-	}
-	
 	/*
 	@supports (scale) {
 		.page-header, .page-body, .site-title, .site-subtitle {
