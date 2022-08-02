@@ -176,7 +176,7 @@ body {
 	mask-size: cover;
 	-webkit-mask-type: alpha;
 	mask-type: alpha;
-	z-index: -1;
+	z-index: 0;
 }
 
 .member-info {
@@ -187,6 +187,7 @@ body {
 	--mits20: var(--mits10), var(--mits10);
 	margin-left: 20vw;
 	text-shadow: var(--mits15);
+	z-index: 1;
 }
 
 .member-image {
