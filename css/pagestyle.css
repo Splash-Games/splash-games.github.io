@@ -286,16 +286,8 @@ body {
 		margin-left: 36%;
 	}
 	
-	.member-image {
-		margin-bottom: -50%;
-		margin-left: 40%;
-	}
-	.member-mark {
-		margin-bottom: -60%;
-		margin-left: 0vw;
-	}
-	.member-info {
-		margin-left: 0vw;
+	body {
+		width: 400px;
 	}
 	
 	/*
