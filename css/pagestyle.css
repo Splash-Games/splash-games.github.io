@@ -170,7 +170,7 @@ body {
 	width: 20vw;
 	min-width: 255px;
 	margin-left: -5vw;
-	margin-bottom: -40%;
+	margin-bottom: -335%;
 	aspect-ratio: 1 / 1;
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
@@ -200,7 +200,7 @@ body {
 .member-image {
 	width: 20vw;
 	margin-left: -20vw;
-	margin-bottom: -15vw;
+	margin-bottom: -20vw;
 	min-width: 192px;
 	aspect-ratio: 1 / 1;
 	background-color: black;
