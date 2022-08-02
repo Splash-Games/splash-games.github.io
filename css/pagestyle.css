@@ -176,6 +176,7 @@ body {
 	mask-size: cover;
 	-webkit-mask-type: alpha;
 	mask-type: alpha;
+	z-index: -1;
 }
 
 .member-info {
@@ -232,6 +233,7 @@ body {
 	margin-bottom: -5px;
 	margin-top: -5px;
 }
+
 .rainbow {
 	background-image: var(--rainbow);
 }
