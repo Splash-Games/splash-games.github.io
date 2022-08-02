@@ -299,6 +299,10 @@ body {
 	.member-info {
 		margin-left: 0vw;
 	}
+
+	.member-title {
+		width: 50%;
+}
 	
 	/*
 	@supports (scale) {
