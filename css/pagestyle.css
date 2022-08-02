@@ -237,7 +237,7 @@ body {
 }
 
 .scratch {
-	/*-webkit-mask-image: url("../res/img/mask/spiral.png");
+	-webkit-mask-image: url("../res/img/mask/spiral.png");
 	mask-image: url("../res/img/mask/spiral.png");/**/
 }
 
