@@ -199,6 +199,7 @@ body {
 
 .member-image {
 	width: 20vw;
+	margin-left: -20vw;
 	min-width: 192px;
 	margin-bottom: -30%;
 	aspect-ratio: 1 / 1;
