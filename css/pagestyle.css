@@ -287,6 +287,7 @@ body {
 	}
 	
 	.member-image {
+		width: 50vw;
 		margin-bottom: -50%;
 		margin-left: 50%;
 	}
