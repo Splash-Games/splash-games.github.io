@@ -237,8 +237,8 @@ body {
 }
 
 .scratch {
-	-webkit-mask-image: url("../res/img/mask/spiral.png");
-	mask-image: url("../res/img/mask/spiral.png");/**/
+	-webkit-mask-image: url("../res/img/mask/scratch.png");
+	mask-image: url("../res/img/mask/scratch.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
