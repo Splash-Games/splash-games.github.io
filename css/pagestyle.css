@@ -187,6 +187,7 @@ body {
 	--mits20: var(--mits10), var(--mits10);
 	margin-left: 20vw;
 	text-shadow: var(--mits15);
+	background-color: transparent;
 	z-index: 1;
 }
 
