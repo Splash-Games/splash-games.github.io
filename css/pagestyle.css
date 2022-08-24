@@ -268,6 +268,10 @@ body {
 	background-image: linear-gradient(to bottom, white, white);
 }
 
+.maritime {
+	background-image: linear-gradient(to bottom, blue, white, rgb(0, 128, 100));
+}
+
 .scratch {
 	-webkit-mask-image: url("../res/img/mask/scratch.png");
 	mask-image: url("../res/img/mask/scratch.png");/**/
@@ -291,6 +295,11 @@ body {
 .grid {
 	-webkit-mask-image: url("../res/img/mask/Grid.png");
 	mask-image: url("../res/img/mask/Grid.png");/**/
+}
+
+.vortex {
+	-webkit-mask-image: url("../res/img/mask/vortex.png");
+	mask-image: url("../res/img/mask/vortex.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
