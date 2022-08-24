@@ -257,8 +257,8 @@ body {
 }
 
 .yarn {
-	-webkit-mask-image: url("../res/img/mask/yarn.png");
-	mask-image: url("../res/img/mask/yarn.png");/**/
+	-webkit-mask-image: url("../res/img/mask/Yarn.png");
+	mask-image: url("../res/img/mask/Yarn.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
