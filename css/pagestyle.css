@@ -260,6 +260,10 @@ body {
 	background-image: linear-gradient(to bottom, red, red, lightblue, lightblue);
 }
 
+.nigt-stripes {
+	background-image: linear-gradient(to bottom left, indigo, darkblue, indigo, darkblue, indigo, darkblue);
+}
+
 .null-void {
 	background-image: linear-gradient(to bottom, white, white);
 }
@@ -282,6 +286,11 @@ body {
 .leaves {
 	-webkit-mask-image: url("../res/img/mask/Foliage.png");
 	mask-image: url("../res/img/mask/Foliage.png");/**/
+}
+
+.grid {
+	-webkit-mask-image: url("../res/img/mask/Grid.png");
+	mask-image: url("../res/img/mask/Grid.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
