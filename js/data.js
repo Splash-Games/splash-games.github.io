@@ -66,7 +66,7 @@ let MemberInfo = {
 
 	end: () => {
 		document.write(`
-			</div>
+			</div><br>
 		`);
 	},
 };

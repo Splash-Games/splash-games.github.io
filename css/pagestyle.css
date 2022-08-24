@@ -160,6 +160,7 @@ body {
 	align-content: center;
 	align-items: center;
 	align-self: center;
+	overflow: scroll;
 }
 
 .page-content-collection-item {
@@ -170,7 +171,7 @@ body {
 	width: 20vw;
 	min-width: 255px;
 	margin-left: -5vw;
-	margin-bottom: -35%;
+	margin-bottom: -30%;
 	aspect-ratio: 1 / 1;
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
@@ -238,7 +239,7 @@ body {
 }
 
 .member-title {
-	font-size: calc(3 * var(--font-scale));
+	font-size: calc(2.5 * var(--font-scale));
 	margin-bottom: -5px;
 	margin-top: -5px;
 }
@@ -251,6 +252,18 @@ body {
 	background-image: radial-gradient(yellow, yellow, red, purple, purple, purple);
 }
 
+.royal {
+	background-image: linear-gradient(to bottom, purple, purple, magenta, magenta);
+}
+
+.city-jeans {
+	background-image: linear-gradient(to bottom, red, red, lightblue, lightblue);
+}
+
+.null-void {
+	background-image: linear-gradient(to bottom, white, white);
+}
+
 .scratch {
 	-webkit-mask-image: url("../res/img/mask/scratch.png");
 	mask-image: url("../res/img/mask/scratch.png");/**/
@@ -259,6 +272,16 @@ body {
 .yarn {
 	-webkit-mask-image: url("../res/img/mask/Yarn.png");
 	mask-image: url("../res/img/mask/Yarn.png");/**/
+}
+
+.spell-circle {
+	-webkit-mask-image: url("../res/img/mask/SpellCircle.png");
+	mask-image: url("../res/img/mask/SpellCircle.png");/**/
+}
+
+.leaves {
+	-webkit-mask-image: url("../res/img/mask/Foliage.png");
+	mask-image: url("../res/img/mask/Foliage.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
