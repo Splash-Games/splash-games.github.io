@@ -39,3 +39,34 @@ function setup(anchors) {
 	} catch (error) {}
 	if (anchors[0]) anchors.forEach(el => setAnchors(el));
 }
+
+let MemberInfo = {
+	begin: (title, name, imgpath = "", membermark = "") => {
+		document.write(`
+			<div class="member-info">
+				<img src="${imgpath}" class="member-image">
+				<div class="member-mark ${membermark}">
+				</div>
+				<h3>
+					${title}
+				</h3>
+				<h1 id="${name.replace(" ", "-")}" class="member-title">
+					${name}
+				</h1>
+		`);
+	},
+
+	description: (content) => {
+		document.write(`
+			<h4>
+				${content}
+			</h4>
+		`);
+	},
+
+	end: () => {
+		document.write(`
+			</div>
+		`);
+	},
+};

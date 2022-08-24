@@ -247,9 +247,18 @@ body {
 	background-image: var(--rainbow);
 }
 
+.society {
+	background-image: radial-gradient(yellow, yellow, red, purple, purple, purple);
+}
+
 .scratch {
 	-webkit-mask-image: url("../res/img/mask/scratch.png");
 	mask-image: url("../res/img/mask/scratch.png");/**/
+}
+
+.yarn {
+	-webkit-mask-image: url("../res/img/mask/yarn.png");
+	mask-image: url("../res/img/mask/yarn.png");/**/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
