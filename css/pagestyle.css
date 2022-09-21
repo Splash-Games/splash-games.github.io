@@ -268,8 +268,12 @@ body {
 	background-image: linear-gradient(to bottom, white, white);
 }
 
-.maritime {
+.night-sky {
 	background-image: linear-gradient(to bottom, skyblue, darkblue);
+}
+
+.maritime {
+	background-image: linear-gradient(to bottom, lime, lime, white, blue, blue);
 }
 
 .scratch {
