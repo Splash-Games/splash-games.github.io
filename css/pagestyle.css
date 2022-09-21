@@ -273,7 +273,7 @@ body {
 }
 
 .maritime {
-	background-image: linear-gradient(to bottom, lime, lime, white, blue, blue);
+	background-image: linear-gradient(to bottom, blue, white, rgb(0, 128, 100));
 }
 
 .scratch {
