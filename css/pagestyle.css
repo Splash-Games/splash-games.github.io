@@ -170,9 +170,9 @@ body {
 .member-mark {
 	width: 20vw;
 	min-width: 255px;
-	max-width: 300px;
-	margin-left: -5vw;
-	margin-bottom: -30%;
+	/*max-width: 300px;*/
+	margin-left: -10vw;
+	margin-bottom: -25%;
 	aspect-ratio: 1 / 1;
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
@@ -202,9 +202,9 @@ body {
 .member-image {
 	width: 20vw;
 	margin-left: -20vw;
-	margin-bottom: -20vw;
+	margin-bottom: -15vw;
 	min-width: 192px;
-	max-width: 300px;
+	/*max-width: 300px;*/
 	aspect-ratio: 1 / 1;
 	background-color: black;
 	border-radius: 10vw;
