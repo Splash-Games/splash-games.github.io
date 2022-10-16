@@ -251,7 +251,7 @@ body {
 }
 
 .society {
-	background-image: radial-gradient(yellow, yellow, red, purple, purple, purple);
+	background-image: radial-gradient(yellow, yellow 25%, red 35% 55%, purple 65%, purple, purple);
 }
 
 .royal {
@@ -263,7 +263,7 @@ body {
 }
 
 .night-stripes {
-	background-image: linear-gradient(to bottom left, indigo, darkblue, indigo, darkblue, indigo, darkblue);
+	background-image: linear-gradient(to bottom left, indigo 20%, darkblue 21% 40%, indigo 41% 60%, darkblue 61% 80%, indigo 81% 100%);
 }
 
 .null-void {
@@ -280,32 +280,32 @@ body {
 
 .scratch {
 	-webkit-mask-image: url("../res/img/mask/scratch.png");
-	mask-image: url("../res/img/mask/scratch.png");/**/
+	mask-image: url("../res/img/mask/scratch.png");
 }
 
 .yarn {
 	-webkit-mask-image: url("../res/img/mask/Yarn.png");
-	mask-image: url("../res/img/mask/Yarn.png");/**/
+	mask-image: url("../res/img/mask/Yarn.png");
 }
 
 .spell-circle {
 	-webkit-mask-image: url("../res/img/mask/SpellCircle.png");
-	mask-image: url("../res/img/mask/SpellCircle.png");/**/
+	mask-image: url("../res/img/mask/SpellCircle.png");
 }
 
 .leaves {
 	-webkit-mask-image: url("../res/img/mask/Foliage.png");
-	mask-image: url("../res/img/mask/Foliage.png");/**/
+	mask-image: url("../res/img/mask/Foliage.png");
 }
 
 .grid {
 	-webkit-mask-image: url("../res/img/mask/Grid.png");
-	mask-image: url("../res/img/mask/Grid.png");/**/
+	mask-image: url("../res/img/mask/Grid.png");
 }
 
 .vortex {
 	-webkit-mask-image: url("../res/img/mask/vortex.png");
-	mask-image: url("../res/img/mask/vortex.png");/**/
+	mask-image: url("../res/img/mask/vortex.png");
 }
 
 @media only screen and (hover: none) and (pointer: coarse) and (orientation: portrait) {
