@@ -251,7 +251,7 @@ body {
 }
 
 .society {
-	background-image: radial-gradient(yellow, yellow 25%, red 35% 55%, purple 65%, purple, purple);
+	background-image: radial-gradient(yellow 25%, red 35% 45%, purple 55%);
 }
 
 .royal {
